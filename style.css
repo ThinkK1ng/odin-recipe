@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* KATSUDON */
+.katsu {
+    font-family: "KoHo", sans-serif;
+}
+
+/* LASAGNA */
+
+.lasagna {
+    font-family: "Italiana", sans-serif;
+}
+
+/* SNICKERDOODLES */
+
+.cookie {
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* RECIPE IMAGE */
+
+.recipe__image--container {
+    display: flex;
+align-items: center;
+}
+
+.recipe__image--wrapper {
+    display: flex;
+    max-width: 600px;
+    width: 600px;
+    padding: 20px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.recipe__image {
+    border-radius: 20px;
+    width: 100%;
+}
+
+/* RECIPE DESCRIPTION */
+.recipe__desc {
+    max-width: 600px;
+}
+
+.recipe__desc--head {
+    margin-bottom: 10px;
+    text-decoration:underline;
+}
+
+.recipe__desc--para {
+    margin-top: 0px;
+}
